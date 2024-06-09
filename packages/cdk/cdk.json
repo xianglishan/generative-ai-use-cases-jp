@@ -20,21 +20,22 @@
     "ragEnabled": false,
     "kendraIndexArn": null,
     "kendraDataSourceBucketName": null,
-    "selfSignUpEnabled": true,
+    "selfSignUpEnabled": false,
     "allowedSignUpEmailDomains": null,
     "samlAuthEnabled": false,
     "samlCognitoDomainName": "",
     "samlCognitoFederatedIdentityProviderName": "",
-    "modelRegion": "us-east-1",
+    "modelRegion": "us-west-2",
     "modelIds": [
-      "anthropic.claude-3-sonnet-20240229-v1:0"
+      "anthropic.claude-3-sonnet-20240229-v1:0", 
+      "anthropic.claude-3-haiku-20240307-v1:0"
     ],
     "imageGenerationModelIds": [
       "stability.stable-diffusion-xl-v1"
     ],
     "endpointNames": [],
     "agentEnabled": false,
-    "agentRegion": "us-east-1",
+    "agentRegion": "us-west-2",
     "searchAgentEnabled": false,
     "searchApiKey": "",
     "agents": [],
