@@ -1,0 +1,7 @@
+{
+    "name": "Node.js & TypeScript",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+      "postCreateCommand": "npm install"
+  }
